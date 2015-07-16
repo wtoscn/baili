@@ -1,0 +1,264 @@
+
+html body{
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#head{
+    width: 960px;
+    height: 105px;
+    margin: 0 auto;
+}
+#head_logo{
+    width: 171px;
+    height: 105px;
+    float: left;
+}
+#head_line{
+    height: 5px;
+    width: 100%;
+    background-color: crimson;
+    padding-bottom;
+}
+#head_items .item{
+    float: left;
+    list-style: none;
+    margin: 0 10px;
+    color: white;
+}
+#head_items {
+    float: left;
+    margin-top: 70px;
+}
+
+#head_bg {
+    height: 105px;
+    width: 100%;
+    background-color: black;   
+}
+#head_serch {
+    float: right;
+    margin-top: 76px;
+    border: 1px darkgrey solid;
+}
+
+
+
+#ser_buttom {
+    float: left;
+}
+
+
+
+#3 img {
+    margin-top: 20px;
+}
+
+#ad{
+    width: 100%;
+    height: 396px;
+    background: url(../images/1.JPG) center;
+}
+
+#box {
+    height: 254px;
+    width: 960PX;
+    margin: 0 auto;
+}
+
+#box1 {
+    width: 160PX;
+    float: left;
+    margin: 25px 80px;
+}
+
+#box .t1{
+    color: aliceblue;
+    text-align:center;
+    margin: 0 auto;
+}
+
+#box .t2 {
+    color: aliceblue;
+    text-align:center;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+
+
+#box2 {
+    width: 160PX;
+    float: left;
+    margin: 25px 80px;
+}
+
+#box3 {
+    width: 160PX;
+    float: left;
+    margin: 25px 80px;;
+}
+
+.t1 {
+    
+}
+
+#foot_bg {
+    background-color: white;
+    height: 300px;
+    width: 100%;  
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+#box_bg {
+    background-color: black;
+    width: 100%;
+    height: 255px;
+    margin: 0 auto;
+}
+
+#line1 img{
+    float: left;
+}
+
+#foot {
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#line1 {
+    margin: 20px 0 20px 64px;
+    float: left;
+}
+
+#line2 {
+        margin: 20px 20px;
+    float: left;
+
+}
+
+#txt li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+#head #head_items li{
+    display: block;
+    width: 90px;
+    height: 30px;
+    text-align:center;
+    margin:0;
+    line-height: 30px;
+}
+#head #head_items li:hover{
+    display: block;
+    width: 90px;
+    height: 30px;
+    text-align:center;
+    margin:0;
+    line-height: 30px;
+    background-color: white;
+    color: black;
+}
+#head #head_items li:hover a{
+    color: black;
+}
+#foot #1 li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.foot_ul {
+    float: left;    
+}
+
+#txt .title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.button {
+    float: right;
+}
+
+#head_ser_text {
+    float: left;
+    border: none;
+    color: darkgrey;
+    width: 110px;
+    background-color: black;
+    
+}
+
+#foot_ser {
+    float: left;
+    border: 1px darkgrey solid;
+}
+
+#foot_ser_text {
+    float: left;
+    width: 106px;
+}
+
+#foot_ser_button {
+    float: left;
+}
+
+.ser_text {
+    
+}
+
+#1 {
+    float: left;
+    width: 500px;
+}
+
+#foot_serch {
+    float: left;
+    margin:10px 0;
+    border: 1px darkgrey solid;
+}
+
+#lang_box1 {
+    float: left;
+}
+
+.foot_1 {
+    list-style: none;
+}
+
+.txt_ul {
+    float: left;
+    margin: 30px 10px 0 10px;
+}
+
+#head #head_items li:hover #proudct {
+    width: 960px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    left: -300px;
+}
+
+#email {
+    height: 30px;
+    margin: 0 auto;
+    background-color: black;
+
+}
+#email p{
+    text-align: center;
+    line-height: 30px;    
+}
+
+
+#email a {
+    text-decoration: none;
+    color: white;
+
+}
