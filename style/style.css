@@ -239,7 +239,7 @@ a{
 
 #head #head_items li:hover #proudct {
     width: 960px;
-    height: 300px;
+    height: 210px;
     background-color: white;
     position: relative;
     left: -300px;
@@ -261,4 +261,21 @@ a{
     text-decoration: none;
     color: white;
 
+}
+
+
+
+#head_items li:hover .pro_box {
+    width: 160px;
+    height: 205px;
+    float: left;
+    margin: 0 auto;
+    padding: 0;
+}
+#head_items li.pro_box {
+    display: none;
+}
+
+.tiem {
+    float: left;
 }
