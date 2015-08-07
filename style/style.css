@@ -242,7 +242,8 @@ a{
     height: 210px;
     background-color: white;
     position: relative;
-    left: -300px;
+    left: -260px;
+    z-index: 999;
 }
 
 #email {
