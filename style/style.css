@@ -55,13 +55,6 @@ a{
 #3 img {
     margin-top: 20px;
 }
-
-#ad{
-    width: 100%;
-    height: 396px;
-    background: url(../images/1.JPG) center;
-}
-
 #box {
     height: 254px;
     width: 960PX;
@@ -156,19 +149,7 @@ a{
     margin:0;
     line-height: 30px;
 }
-#head #head_items li:hover{
-    display: block;
-    width: 90px;
-    height: 30px;
-    text-align:center;
-    margin:0;
-    line-height: 30px;
-    background-color: white;
-    color: black;
-}
-#head #head_items li:hover a{
-    color: black;
-}
+
 #foot #1 li{
     list-style: none;
     margin-bottom: 10px;
@@ -237,13 +218,36 @@ a{
     margin: 30px 10px 0 10px;
 }
 
-#head #head_items li:hover #proudct {
+#head_items>li>ul {
+  display: none;
+}
+#head_items>li:hover>ul {
+    display: block;
+}
+#head_items>li:hover>ul>div {
+    display: block;
     width: 960px;
     height: 210px;
     background-color: white;
     position: relative;
     left: -260px;
     z-index: 999;
+}
+#head_items>li:hover>ul>div>li {
+    display: block;
+    float: left;
+    color: black;
+}
+#head_items>li:hover{
+    background-color: white;
+}
+#head_items>li:hover a{
+    color: black;
+}
+#head_items>li:hover>ul>div>li>p {
+    display: block;
+    text-align: center;
+    
 }
 
 #email {
