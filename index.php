@@ -3,68 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>东莞市百利电器有限公司</title>
+        <link rel="stylesheet" href="style/style.css" type="text/css">
     <!--焦点图css开始-->
     <link rel="stylesheet" href="style/jiaodian.css">
-    <link rel="stylesheet" href="/style/style.css" type="text/css">
 </head>
 <body>
 <!--头部代码开始-->
-    <div id="head_bg">
-        <div id="head">
-                <div id="head_logo">
-                    <a href="http://www.315hk.cn" target="_blank"> 
-                        <img src="/images/logo.jpg" alt="logo">
-                    </a>
-                </div>
-            <ul id="head_items">
-                        <li class="item">
-                            <a href="http://www.dgbaili.com">关于百利</a>
-                        </li>
-                        <li class="item"><a>商用产品</a>
-                            <ul>
-                                <div id="proudct">
-                                    <li class="pro_box">
-                                        <img src="/images/pro_lei_1.png" alt="">
-                                        <p>立式展示柜</p>
-                                    </li>
-                                    <li class="pro_box">
-                                        <img src="/images/pro_lei_2.png" alt="">
-                                        <p>卧式冷柜</p>
-                                    </li>
-                                    <li class="pro_box">
-                                        <img src="/images/pro_lei_3.png" alt="">
-                                        <p>岛式冷柜</p>
-                                    </li>
-                                    <li class="pro_box">
-                                        <img src="/images/pro_lei_4.png" alt="">
-                                        <p>厨房柜</p>
-                                    </li>
-                                    <li class="pro_box">
-                                        <img src="/images/pro_lei_5.png" alt="">
-                                        <p>厨房工作台</p>
-                                    </li>
-                                    <li class="pro_box">
-                                        <img src="/images/pro_lei_6.png" alt="">
-                                        <p>顶盖门冷柜</p>
-                                    </li>
-                                </div>
-                            </ul>
-                        </li>
-                    <li class="item"><a>解决方案</a></li>
-                    <li class="item"><a>服务支持</a></li>
-                    <li class="item"><a>人才招聘</a></li>
-                    <li class="item"><a>联系我们</a></li>
-                </ul>
-            <div id="head_serch">
-                    <input id="head_ser_text" type="text" name="serch">  
-                    <input id="head_ser_button" type="button" value="搜索">  
-            </div>
-        </div>
-    </div>
+<?php include 'head.php' ;?>
 <!--头部代码结束-->
-<!--头部底线开始-->
-    <div id="head_line"></div>
-<!--头部底线结束-->
 <!--滚动广告开始-->
     <div class="slide banner" data-slide='{"action":"click","fn":"banner_ext","time":"8000"}'>
 	<div class="ban_c album"><a href="#"><img src="http://www.dgbaili.com/imageRepository/b996d866-4af3-4cb0-a2d9-7fb3c3379dca.jpg" alt="美国展" /></a></div>
