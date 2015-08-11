@@ -3,127 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>东莞市百利电器有限公司</title>
-        <link rel="stylesheet" href="style/style.css" type="text/css">
-    <!--焦点图css开始-->
-    <link rel="stylesheet" href="style/jiaodian.css">
 </head>
 <body>
 <!--头部代码开始-->
 <?php include 'head.php' ;?>
 <!--头部代码结束-->
 <!--滚动广告开始-->
-    <div class="slide banner" data-slide='{"action":"click","fn":"banner_ext","time":"8000"}'>
-	<div class="ban_c album"><a href="#"><img src="http://www.dgbaili.com/imageRepository/b996d866-4af3-4cb0-a2d9-7fb3c3379dca.jpg" alt="美国展" /></a></div>
-	<div class="ban_c album"><a href="#"><img src="http://www.dgbaili.com/imageRepository/e0031cbc-1c44-4a78-b000-dc301126be73.jpg" alt="国家科技奖" /></a></div>
-	<div class="ban_c album"><a href="#"><img src="http://www.dgbaili.com/imageRepository/dc9bf156-5d2e-40db-a8b6-2ce01f4bbd83.jpg" alt="网站新精彩" /></a></div>
-</div>
-<div class="wrap bann_ext">
-	<ul class="l frontCover"></ul>
-</div>
-<script src="http://www.lanrenzhijia.com/ajaxjs/jquery.min.js" ></script>
-<script src="http://demo.lanrenzhijia.com/2014/banner1113/js/lanrenzhijia.js"></script>
+<?php include 'ad.php';?>
 <!--滚动广告结束-->
 <!--3个box开始-->
-    <div id="box_bg">
-        <div id="box">
-            <div id="box1">
-                <img src="/images/box1.jpg" alt="box1">
-                <p class="t1">百利专卖店</p><br>
-                <p  class="t2">与百利一起打造制冷行业市场</p>
-                <p  class="t2">百利专卖店面向全国招商</p>
-            </div>
-            <div id="box2">
-                <img src="/images/box2.jpg" alt="box1">
-                <p class="t1">售后服务</p><br>
-                <p  class="t2">全年24小时在线客服</p>
-                <p  class="t2">服务网点遍布全国</p>
-            </div>
-            <div id="box3">
-                <img src="/images/box3.jpg" alt="box1">
-                <p class="t1">深度定制</p><br>
-                <p  class="t2">我们为全球千万企业商家定制</p>
-                <p  class="t2">个性化的配置服务</p>
-            </div>
-        </div>
-        <div class="clear"></div>
-    </div>
+<?php include 'box.php';?>
 <!--3个box结束-->
 <!--底部导航信息开始-->
-    <div id="foot_bg">
-        <div id="foot">
-            <div id="1">
-                <ul class="foot_ul">
-                    <li class="foot_1">
-                        <div id="foot_serch">
-                            <input id="foot_ser_text" type="text" name="serch">  
-                            <input id="head_ser_button" type="button" value="搜索"> 
-                        </div>
-                    </li>
-                    <li class="foot_1">
-                        <p>国家／语言</p>
-                    </li>
-                    <li class="foot_1">
-                        <p>english/英语</p>
-                    </li>
-                    <li class="foot_1">
-                        <p>china/中国</p>
-                    </li>
-                </ul>
-<!--
-                <div id="foot_serch">
-                    <input id="head_ser_text" type="text" name="serch">  
-                    <input id="head_ser_button" type="button" value="搜索"> 
-                </div>
-                <div id="lang">
-                    <div id="lang_box1">
-                            <p>国家／语言</p>
-                    </div>
-                    <div id="lang_box2"></div>
-                </div>
--->
-            </div>
-            <div id="line1">
-                <img src="/images/foot_line.jpg" alt="">
-            </div>
-            <div id="2">
-                <div id="txt">
-                    <ul class="txt_ul">
-                        <li class="title">百利产品</li>
-                        <li>卧式展示柜</li>
-                        <li>立式展示柜</li>
-                        <li>岛式冷柜</li>
-                        <li>厨房高身冷柜</li>
-                        <li>厨房工作台</li>
-                    </ul>
-                    <ul class="txt_ul">
-                        <li class="title">服务与支持</li>
-                        <li>在线保修</li>
-                        <li>购买网点</li>
-                        <li>下载中心</li>
-                        <li>定制服务</li>
-                        <li>网上商城</li>
-                    </ul>
-                    <ul class="txt_ul">
-                        <li class="title">关于百利</li>
-                        <li>公司简介</li>
-                        <li>企业荣誉</li>
-                        <li>人才招聘</li>
-                        <li>百利专卖店</li>
-                    </ul>
-                </div>
-            </div>
-            <div id="line2">
-                <img src="/images/foot_line.jpg" alt="">
-
-            </div>
-            <div id="3">
-                <img src="/images/erweima.jpg" alt="">
-            </div>
-        </div>
-    </div>
+<?php include 'foot.php';?>
 <!--底部导航信息结束-->
-    <div id="email">
-        <p><a href="mailto:224409900@qq.com">e-mail</a></p>
-    </div>    
 </body>
 </html>
