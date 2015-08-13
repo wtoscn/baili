@@ -46,6 +46,7 @@ body{
     color:white;
     font-size: 18px;
     text-decoration: none;
+    
 }
 #head_box_nav>ul>li:hover>a{
     color:black;
@@ -62,11 +63,19 @@ body{
 }
 
 #head_box_nav_product {
-    display: block;
+    display: none;
     height: 190px;
     width: 960px;
     background-color: white;
-    position: relative;
+    position:absolute;
+    left: -300px;
+}
+#head_box_nav_product_li:hover #head_box_nav_product {
+    display:block;
+    height: 190px;
+    width: 960px;
+    background-color: white;
+    position:absolute;
     left: -300px;
 }
 
@@ -74,4 +83,8 @@ body{
     float: left;
     width: 130px;
     margin-left: 25px;
+}
+
+#head_box_nav_product_li {
+    position: relative;
 }
