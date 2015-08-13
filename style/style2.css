@@ -46,7 +46,6 @@ body{
     color:white;
     font-size: 18px;
     text-decoration: none;
-    
 }
 #head_box_nav>ul>li:hover>a{
     color:black;
@@ -79,12 +78,44 @@ body{
     left: -300px;
 }
 
+
 .head_box_nav_product_box {
     float: left;
     width: 130px;
     margin-left: 25px;
 }
 
-#head_box_nav_product_li {
+#head_box_nav_product_li  {
     position: relative;
+}
+
+
+
+#head_box_nav_fuwu_li:hover #head_box_nav_fuwu {
+    display: block;
+    position: absolute;
+    height: 180px;
+    width: 960px;
+    background-color: white;
+    left:-480px;
+    padding-top: 20px;
+}
+#head_box_nav_fuwu{
+    display: none;
+    position: absolute;
+    height: 180px;
+    width: 960px;
+    background-color: white;
+    left:-480px;
+    padding-top: 20px;
+}
+
+.head_box_nav_fuwu_box {
+    float: left;
+    width: 130px;
+    margin-left: 25px;
+}
+
+#head_box_nav_fuwu_li {
+        position: relative;
 }

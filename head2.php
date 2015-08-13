@@ -43,7 +43,34 @@
                         </div>
                     </li>
                     <li><a href="#">解决方案</a></li>
-                    <li><a href="#">服务支持</a></li>
+                    <li id="head_box_nav_fuwu_li"><a href="#">服务支持</a>
+                        <div id="head_box_nav_fuwu">
+                            <div class="head_box_nav_fuwu_box">
+                                <img src="images/fuwu_ico1.jpg" alt="">
+                                <a href="#">维修服务</a>
+                            </div>
+                            <div class="head_box_nav_fuwu_box">
+                                <img src="images/fuwu_ico2.jpg" alt="">
+                                <a href="#">购买网点</a>
+                            </div>
+                            <div class="head_box_nav_fuwu_box">
+                                <img src="images/fuwu_ico3.jpg" alt="">
+                                <a href="#">下载中心</a>
+                            </div>
+                            <div class="head_box_nav_fuwu_box">
+                                <img src="images/fuwu_ico4.jpg" alt="">
+                                <a href="#">服务政策</a>
+                            </div>
+                            <div class="head_box_nav_fuwu_box">
+                                <img src="images/fuwu_ico5.jpg" alt="">
+                                <a href="#">在线调查</a>
+                            </div>
+                            <div class="head_box_nav_product_box">
+                                <img src="images/fuwu_ico6.jpg" alt="">
+                                <a href="#">帮助及问题解答</a>
+                            </div>
+                        </div>
+                    </li>
                     <li><a href="#">人才招聘</a></li>
                     <li><a href="#">联系我们</a></li>
                 </ul>
