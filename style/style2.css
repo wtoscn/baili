@@ -119,3 +119,22 @@ body{
 #head_box_nav_fuwu_li {
         position: relative;
 }
+
+
+
+#head_box_ser {
+    float:right;
+    margin-top: 75px;
+    border: 1px #ddd solid;
+    
+}
+
+#head_box_ser_text {
+    float: left;
+    width: 120px;
+    background-color: black;
+    color: white;
+    border: none;
+    height: 18px;
+}
+

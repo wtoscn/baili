@@ -75,7 +75,10 @@
                     <li><a href="#">联系我们</a></li>
                 </ul>
             </div>
-            <div id="head_box_ser"></div>
+            <div id="head_box_ser">
+                <input type="text" name="serch" id="head_box_ser_text">
+                <input type="button"  value="搜索"id="head_box_ser_button">
+            </div>
         </div>
     </div>
 </body>
