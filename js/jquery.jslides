@@ -1,0 +1,238 @@
+@charset "utf-8";
+HTML{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+BODY{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+DIV{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+H1{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+H2{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+H3{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+H4{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+H5{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+H6{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+UL{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+OL{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+DL{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+LI{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+DT{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+DD{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+BLOCKQUOTE{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+PRE{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+FORM{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+FIELDSET{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+TABLE{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+TH{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+TD{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+SPAN{
+   padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+#full-screen-slider{
+   z-index: 2;
+    position: relative;
+    width: 100%;
+    float: left;
+    height: 394px;
+}
+#slides{
+   z-index: 1;
+    position: relative;
+    padding-bottom: 0px;
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    width: 100%;
+    padding-right: 0px;
+    display: block;
+    height: 394px;
+    padding-top: 0px;
+}
+#slides LI{
+   position: absolute;
+    padding-bottom: 0px;
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    width: 100%;
+    padding-right: 0px;
+    display: block;
+    height: 100%;
+    padding-top: 0px;
+    left: 0px;
+}
+#slides LI A{
+   text-indent: -9999px;
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+#pagination{
+   z-index: 9900;
+    position: absolute;
+    padding-bottom: 5px;
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 15px;
+    display: block;
+    top: 480px;
+    padding-top: 5px;
+    left: 50%;
+}
+#pagination LI{
+   list-style-type: none;
+    width: 10px;
+    display: block;
+    background: #fff;
+    float: left;
+    height: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+#pagination LI A{
+   padding-bottom: 0px;
+    text-indent: -9999px;
+    margin: 0px;
+    padding-left: 0px;
+    width: 100%;
+    padding-right: 0px;
+    display: block;
+    height: 100%;
+    padding-top: 0px;
+}
+#pagination LI.current{
+   background: #ba1717;
+}

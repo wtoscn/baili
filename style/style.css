@@ -2,10 +2,6 @@
 html body{
     margin: 0 auto;
 }
-a{
-    text-decoration: none;
-    color: white;
-}
 #head{
     width: 960px;
     height: 105px;
@@ -55,44 +51,6 @@ a{
 
 #3 img {
     margin-top: 20px;
-}
-#box {
-    height: 254px;
-    width: 960PX;
-    margin: 0 auto;
-}
-
-#box1 {
-    width: 160PX;
-    float: left;
-    margin: 25px 80px;
-}
-
-#box .t1{
-    color: aliceblue;
-    text-align:center;
-    margin: 0 auto;
-}
-
-#box .t2 {
-    color: aliceblue;
-    text-align:center;
-    margin: 0 auto;
-    font-size: 12px;
-}
-
-
-
-#box2 {
-    width: 160PX;
-    float: left;
-    margin: 25px 80px;
-}
-
-#box3 {
-    width: 160PX;
-    float: left;
-    margin: 25px 80px;;
 }
 
 .t1 {
