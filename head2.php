@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="style/head.css">
+    <link rel="stylesheet" href="style/style2.css">
 </head>
 <body>
     <div id="head">
@@ -81,6 +81,5 @@
             </div>
         </div>
     </div>
-    <div id="head_line"></div>
 </body>
 </html>

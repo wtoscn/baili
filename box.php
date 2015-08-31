@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="style/box.css" type="text/css">
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+
 </head>
 <body>
     <div id="box_bg">
@@ -13,8 +14,6 @@
                 <p class="t1">百利专卖店</p><br>
                 <p  class="t2">与百利一起打造制冷行业市场</p>
                 <p  class="t2">百利专卖店面向全国招商</p>
-                <p class="t3"><a href="http://player.youku.com/player.php/sid/XODUwODQwNDk2/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash">>宣传视频</a></p>
-                <p class="t3">>了解更多</p>
             </div>
             <div id="box2">
                 <img src="/images/box2.jpg" alt="box1">
