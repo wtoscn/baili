@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+}
+#ad{
+    background-image: url(../images/1.JPG);
+    background-position: center;
+    height: 396px;
+}

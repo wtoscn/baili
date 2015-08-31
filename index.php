@@ -6,16 +6,15 @@
 </head>
 <body>
 <!--头部代码开始-->
-<?php include 'head.php' ;?>
+<?php include 'head2.php' ;?>
 <!--头部代码结束-->
 <!--滚动广告开始-->
-<?php include 'ad.php';?>
+<?php include 'ad2.php';?>
 <!--滚动广告结束-->
 <!--3个box开始-->
 <?php include 'box.php';?>
 <!--3个box结束-->
 <!--底部导航信息开始-->
-<?php include 'foot.php';?>
 <!--底部导航信息结束-->
 </body>
 </html>

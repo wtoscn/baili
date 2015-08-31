@@ -1,17 +1,14 @@
 
-body{
-    background-color: black;
-}
 *{
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: black;
+}
 #head {
     height: 105px;
     width: auto;
-    border-bottom: 5px solid;
-    border-bottom-color: brown;
-    
 }
 
 #head_box {
@@ -21,6 +18,7 @@ body{
 
 #head_box_logo {
     float: left;
+    height: 105px;
 }
 
 #head_box_nav>ul>li {
@@ -46,11 +44,14 @@ body{
     color:white;
     font-size: 18px;
     text-decoration: none;
+    z-index: 999;
 }
 #head_box_nav>ul>li:hover>a{
     color:black;
     font-size: 18px;
     text-decoration: none;
+    z-index: 999;
+
 }
 
 
@@ -68,6 +69,7 @@ body{
     background-color: white;
     position:absolute;
     left: -300px;
+    z-index: 999;
 }
 #head_box_nav_product_li:hover #head_box_nav_product {
     display:block;
@@ -99,6 +101,7 @@ body{
     background-color: white;
     left:-480px;
     padding-top: 20px;
+    z-index: 999;
 }
 #head_box_nav_fuwu{
     display: none;
@@ -138,3 +141,10 @@ body{
     height: 18px;
 }
 
+
+#head_line {
+    background-color: brown;
+    height: 5px;
+    width: 100%;
+    float: left;
+}
