@@ -1,10 +1,8 @@
 
-*{
-    margin: 0;
-    padding: 0;
-}
 body{
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
 #head {
     height: 105px;
@@ -58,8 +56,8 @@ body{
 
 #head_box_nav {
     float: left;
-    margin-top: 70px;
-    margin-left: 40px;
+    margin-top: 55px;
+    margin-left: 10px;
 }
 
 #head_box_nav_product {
@@ -77,7 +75,7 @@ body{
     width: 960px;
     background-color: white;
     position:absolute;
-    left: -300px;
+    left: -310px;
 }
 
 
@@ -99,7 +97,7 @@ body{
     height: 180px;
     width: 960px;
     background-color: white;
-    left:-480px;
+    left:-490px;
     padding-top: 20px;
     z-index: 999;
 }
