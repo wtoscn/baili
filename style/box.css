@@ -45,9 +45,9 @@
 }
 
 .t3 {
-    float: left;
+    margin-top: 10px;
     color: brown;
-    padding: 0 3px;
+    text-align: center;
 }
 
 #box a {
@@ -55,4 +55,15 @@
 }
 #box a:visited{
     color: brown;
+}
+
+.box1_text a{
+    float: left;
+    color: brown;
+    margin: 0 3px;
+    
+}
+
+.box1_text {
+    margin-top: 10px;
 }
