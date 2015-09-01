@@ -84,6 +84,10 @@ body{
     width: 130px;
     margin-left: 25px;
 }
+.head_box_nav_product_box a{
+    text-decoration: none;
+    color: black;
+}
 
 #head_box_nav_product_li  {
     position: relative;
@@ -101,6 +105,7 @@ body{
     padding-top: 20px;
     z-index: 999;
 }
+
 #head_box_nav_fuwu{
     display: none;
     position: absolute;
@@ -119,6 +124,9 @@ body{
 
 #head_box_nav_fuwu_li {
         position: relative;
+}#head_box_nav_fuwu_li:hover #head_box_nav_fuwu_box a{
+        text-decoration: none;
+        color: black;
 }
 
 
