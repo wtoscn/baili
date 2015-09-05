@@ -13,6 +13,7 @@
 <!--3个box开始-->
 <?php include 'box2.php';?>
 <!--底部导航信息开始-->
+<?php include 'foot2.php';?>
 <!--qq浮动客服-->
 <?php include 'qqkefu.php';?>
 

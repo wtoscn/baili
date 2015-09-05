@@ -1,12 +1,12 @@
 
 body{
-    background-color: black;
     margin: 0;
     padding: 0;
 }
 #head {
     height: 105px;
     width: auto;
+    background-color: black;
 }
 
 #head_box {

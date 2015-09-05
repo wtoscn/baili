@@ -1,0 +1,80 @@
+.clearfloat{
+    clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+#foot {
+    width: 960px;
+    background-color: white;
+    margin: 0 auto;
+    height: 200px;
+}
+
+#foot_laug {
+    height: 160px;
+    width: 180px;
+    float: left;
+    padding: 0 20px;
+    padding-top: 20px;
+}
+
+#foot_reweima {
+    height: 200px;
+    width: 180px;
+    float: left;
+}
+
+#foot_nav {
+    float: left;
+    width: 556px;
+    height: 200px;
+}
+
+#foot_line {
+    float: left;
+    height: 200px;
+}
+#foot_line>img{
+    margin: auto 0;
+}
+
+#foot_box_ser {
+    margin-top: 10px;
+     border: 1px #ddd solid;
+     width: 180px;
+}
+
+#head_box_ser_text {
+    width: 110px;
+}
+
+#foot_box_ser_text {
+    width: 130px;
+}
+
+
+
+#foot_laug_p1 {
+    width: 200px;
+    margin-top: 10px;
+}
+
+#foot_nav_ul li{
+    list-style: none;
+    margin: 5px;
+}
+
+#foot_nav_ul {
+    float: left;
+    width: 145px;
+    margin-top: 5px;
+}
