@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php include 'head2.php';?>
-    <div>
+    <div class="about_ad">
         <img src="images/bg_about.jpg" alt="">
     </div>
     <div id="about_page"></div>
