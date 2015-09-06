@@ -4,7 +4,8 @@
     height: 760px;
     margin: 0 auto;
     margin-top: 20px;
-    box-shadow:0px 0px 5px
+    box-shadow:0px 0px 5px;
+    padding: 10px 10px;
 }
 
 
@@ -17,4 +18,42 @@
 }
 .about_ad{
     width:100%;
+}
+
+.about_nav_logo {
+    width: 195px;
+    height: 54px;
+}
+
+.about_nav_logo .color1 {
+    height: 54px;
+    width: 10px;
+    float: left;
+    background-color: brown;
+}
+
+.about_nav_logo .color2 {
+    float: left;
+    height: 54px;
+    width: 185px;
+    background-color:#3b3b3b;
+}
+.about_nav_logo .color2 h3{
+    color: white;
+    padding-left: 40px;
+}
+
+.about_nav {
+    float: left;
+    
+}
+.about_nav li{
+    list-style: none;
+    padding: 10px;
+}
+
+.about_nav_ul_bg {
+    background-color: #ededed;
+    height: 210px;
+    margin-top: 0px;
 }
